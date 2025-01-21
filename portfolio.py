@@ -37,11 +37,11 @@ def load_lottieurl(url):
 lottie_coder = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_UBiAADPga8.json")
 lottie_contact = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_lt8ter7g.json")
 
-image1 = Image.open("Lily.jfif")
-image2 = Image.open("sales.jfif")
-image3 = Image.open("excel.jfif")
-image4 = Image.open("video.jfif")
-uploaded_image_path = "dp.jfif" 
+image1 = Image.open("images/Lily.jfif")
+image2 = Image.open("images/sales.jfif")
+image3 = Image.open("images/excel.jfif")
+image4 = Image.open("images/video.jfif")
+uploaded_image_path = "images/dp.jfif" 
 dp = Image.open(uploaded_image_path).convert("RGBA")
 
 dp = dp.resize((170, 170)) 
