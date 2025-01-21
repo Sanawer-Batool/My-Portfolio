@@ -6,6 +6,30 @@ from PIL import Image, ImageDraw
 
 st.set_page_config(page_title="Sanawer's Portfolio", page_icon=":house_with_garden:", layout="wide")
 
+custom_css = """
+<style>
+    body {
+        background-color: #000000;
+        color: white;
+    }
+    h1, h2, h3, h4, h5, h6 {
+        color: #ff69b4;
+    }
+    p {
+        color: #ffffff;
+    }
+    .stButton>button {
+        background-color: #4CAF50;
+        color: white;
+        border-radius: 5px;
+    }
+    .stButton>button:hover {
+        background-color: #45a049;
+    }
+</style>
+"""
+st.markdown(custom_css, unsafe_allow_html=True)
+
 
 html_code = """
 <div style="text-align: center;">
