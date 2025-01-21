@@ -147,14 +147,14 @@ if selected == 'Projects':
             "key_achievement": "Created an interactive Excel dashboard using pivot tables, pivot charts, and slicers to present data effectively.",
             "technologies": "Microsoft Excel.",
         },
-        {
-            "title": "Video Editing Social Media Apps",
-            "image": image4,  
-            "file_name": "images/Social_Media.mp4",
-            "description": """In this project, I did animation of Social Media apps.""",
-            "key_achievement": "I added keyframes for animation.",
-            "technologies": "Capcut.",
-        },
+        #{
+        #    "title": "Video Editing Social Media Apps",
+        #    "image": image4,  
+        #    "file_name": "images/Social_Media.mp4",
+        #    "description": """In this project, I did animation of Social Media apps.""",
+        #    "key_achievement": "I added keyframes for animation.",
+        #    "technologies": "Capcut.",
+        #},
     ]
 
     if "selected_project" not in st.session_state:
