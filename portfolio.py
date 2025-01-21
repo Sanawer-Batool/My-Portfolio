@@ -126,7 +126,7 @@ if selected == 'Projects':
         {
             "title": "AI Cancer Cell Detection",
             "image": image1,  
-            "file_name": "Cancer_Detect.zip",
+            "file_name": "images/Cancer_Detect.zip",
             "description": """In this project, I trained an AI model to detect cancer cells using advanced machine learning techniques.""",
             "key_achievement": "The AI model can detect cancer cells with over 97% accuracy.",
             "technologies": "Python, TensorFlow, NumPy, Pandas, Scikit-learn.",
@@ -134,7 +134,7 @@ if selected == 'Projects':
         {
             "title": "Supermarket Sales Analysis",
             "image": image2,  
-            "file_name": "pythonProjectUD.zip",
+            "file_name": "images/pythonProjectUD.zip",
             "description": """In this project, I performed data cleaning, analysis, and visualization on supermarket sales data to uncover key insights.""",
             "key_achievement": "Identified the most sold product, analyzed buyer demographics (e.g., male vs. female and age groups), and evaluated revenue patterns.",
             "technologies": "Python, Pandas, NumPy, Matplotlib, Seaborn.",
@@ -142,7 +142,7 @@ if selected == 'Projects':
         {
             "title": "Excel Dashboard for Data Analysis",
             "image": image3,  
-            "file_name": "Excel_DashBoard.zip",
+            "file_name": "images/Excel_DashBoard.zip",
             "description": """In this project, I performed data cleaning, analysis, and visualization directly in Excel to uncover trends and insights.""",
             "key_achievement": "Created an interactive Excel dashboard using pivot tables, pivot charts, and slicers to present data effectively.",
             "technologies": "Microsoft Excel.",
@@ -150,7 +150,7 @@ if selected == 'Projects':
         {
             "title": "Video Editing Social Media Apps",
             "image": image4,  
-            "file_name": "Social_Media.mp4",
+            "file_name": "images/Social_Media.mp4",
             "description": """In this project, I did animation of Social Media apps.""",
             "key_achievement": "I added keyframes for animation.",
             "technologies": "Capcut.",
